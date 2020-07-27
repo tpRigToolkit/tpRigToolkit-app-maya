@@ -1,6 +1,6 @@
 name: "Autodesk Maya"
 short_name: "Maya"
-
+default_version: "2019"
 supported_versions:
   - "2017"
   - "2018"
