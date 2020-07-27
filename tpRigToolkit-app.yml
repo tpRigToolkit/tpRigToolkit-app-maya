@@ -1,9 +1,12 @@
-tools:
-  - id: "tpRigToolkit-tools-controlrig"
-    name: "Control Rig"
+name: "Autodesk Maya"
+short_name: "Maya"
 
 supported_versions:
   - "2017"
   - "2018"
   - "2019"
   - "2020"
+  -
+tools:
+  - id: "tpRigToolkit-tools-controlrig"
+    name: "Control Rig"
