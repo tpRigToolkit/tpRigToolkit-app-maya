@@ -2,7 +2,6 @@ name: "Autodesk Maya"
 short_name: "Maya"
 default_version: "2019"
 supported_versions:
-  - "2017"
   - "2018"
   - "2019"
   - "2020"
@@ -11,7 +10,12 @@ tools:
   - id: "tpRigToolkit-tools-controlrig"
     name: "Control Rig"
     supported_versions:
-      - "2017"
-      - "2018"
-      - "2019"
-      - "2020"
+      2018:
+        python: "2.7.11"
+        path: "mayapy.exe"
+      2019:
+        python: "2.7.11"
+        path: "mayapy.exe"
+      2020:
+        python: "2.7.11"
+        path: "mayapy.exe"
