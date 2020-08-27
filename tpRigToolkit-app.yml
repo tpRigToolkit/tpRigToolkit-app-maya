@@ -19,3 +19,15 @@ tools:
     - "2018"
     - "2019"
     - "2020"
+  - id: "tpRigToolkit-tools-jointorient"
+    name: "Joint Orient"
+    supported_versions:
+      - "2018"
+      - "2019"
+      - "2020"
+  - id: "tpRigToolkit-tools-rigtoolbox"
+    name: "Rig Toolbox"
+    supported_versions:
+      - "2018"
+      - "2019"
+      - "2020"
